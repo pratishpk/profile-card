@@ -1,0 +1,115 @@
+body {
+    background: rgb(12,83,149);
+    background: linear-gradient(156deg, rgba(12,83,149,1) 0%, rgba(94,39,148,1) 32%, rgba(133,18,148,1) 66%, rgba(12,83,149,1) 100%);
+ align-items: center;
+ height: 667px;
+ 
+}
+
+
+.card {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #025b76;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: rgba(150, 116, 52, 0.884);
+}
+
+.img {
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #025b76;
+    margin-left: 40px;
+}
+
+.name {
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.text{
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.prop{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    text-align: center;
+    font-weight: 550;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-decoration: none;
+    transition: .5s ease;
+
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    /* margin: 30px 15px 30px 0; */
+}
+
+.icons a:hover {
+    background: #0ef;
+    color: #61aee6;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.icons .bx,
+.icons .fa-brands {
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+ .icons a{
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: #1ba7d2;
+    border-radius: 15px;
+    border-width: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;   
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background: #0ef;
+    color: #61aee6;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+
+
+
